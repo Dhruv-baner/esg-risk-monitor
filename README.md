@@ -134,20 +134,7 @@ BP PLC - ESG Risk Assessment
 - **AI Agents**: LangChain, Ollama, local LLMs
 - **Deployment**: Streamlit Cloud, GitHub Actions
 
-## 📈 Roadmap
 
-**Q1 2024**: Core data pipeline and NLP classification
-**Q2 2024**: Risk scoring engine and basic dashboard
-**Q3 2024**: AI agents and predictive analytics
-**Q4 2024**: Production deployment and EU expansion
-
-## 🤝 Contributing
-
-This project is part of an academic research initiative. Feedback and contributions welcome!
-
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 📞 Contact
 
@@ -157,3 +144,4 @@ Project Link: [https://github.com/Dhruv-baner/esg-risk-monitor](https://github.c
 ---
 
 *Built for the future of ESG intelligence. Combining cutting-edge NLP with practical business applications.*
+
