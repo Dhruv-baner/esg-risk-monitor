@@ -5,7 +5,6 @@
 An automated ESG (Environmental, Social, Governance) risk monitoring tool that aggregates multi-source data and unique agentic tools to provide early warning signals and risk assessments for investment and consulting professionals.
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-In%20Development-yellow.svg)]()
 
 ## TL;DR
@@ -19,6 +18,13 @@ This system combines **natural language processing**, **AI agents**, and **multi
 - 📈 **Predictive Analytics**: Early warning system for emerging ESG controversies
 - 📊 **Interactive Dashboard**: Real-time risk scores, trends, and automated reports
 - 💰 **Cost-Effective**: Built entirely on free/open APIs and models
+
+
+### Long Term Plan 
+- Expand to EMEA as a whole, integrating an extremely wide range of data sources for a massive pool of companies 
+- Create an improved front-end with packaged deployment for convenient use 
+- Expand the agentic capabilities to ensure constantly updated and relevant ESG risk insights 
+- Ready to use reportgeneration for investors and consultants 
 
 ## 🏗️ System Architecture
 
