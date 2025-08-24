@@ -1,0 +1,40 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.env
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Data files (don't commit large datasets)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# API Keys and secrets
+config/api_keys.yaml
+*.key
+.secrets/
+
+# Models (too large for git)
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# Logs
+logs/*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
