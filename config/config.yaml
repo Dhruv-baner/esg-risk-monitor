@@ -1,0 +1,35 @@
+﻿# ESG Risk Monitoring System Configuration
+
+# Data Collection Settings
+data_collection:
+  companies_limit: 50  # Start small, expand later
+  lookback_days: 30
+  update_frequency: "daily"
+
+# API Settings (keys stored separately in api_keys.yaml)
+apis:
+  news_sources:
+    - "guardian"
+    - "newsapi"
+  social_sources:
+    - "twitter"
+    - "reddit"
+  regulatory_sources:
+    - "companies_house"
+
+# NLP Settings
+nlp:
+  model_name: "facebook/bart-large-mnli"
+  risk_categories:
+    - "Environmental Risk"
+    - "Social Risk" 
+    - "Governance Risk"
+    - "No ESG Risk"
+
+# Risk Scoring
+risk_scoring:
+  severity_weights:
+    high: 1.0
+    medium: 0.6
+    low: 0.3
+  decay_rate: 0.95  # Daily decay factor
